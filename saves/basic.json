@@ -88,8 +88,8 @@
       "desc": "YLUI系统设置面板",
       "icon": {
         "type": "fa",
-        "bg": "#436fde",
-        "content": "gear"
+        "content": "gear",
+        "bg": "transparent"
       },
       "openMode": "normal",
       "plugin": false,
@@ -121,8 +121,8 @@
       "desc": "简单的取色器",
       "icon": {
         "type": "fa",
-        "bg": "#3289c7",
-        "content": "eyedropper"
+        "content": "eyedropper",
+        "bg": "transparent"
       },
       "openMode": "normal",
       "plugin": false,
@@ -155,7 +155,7 @@
       "icon": {
         "type": "fa",
         "content": "internet-explorer",
-        "bg": "#3a55c2"
+        "bg": "transparent"
       },
       "openMode": "normal",
       "plugin": false,
@@ -188,7 +188,7 @@
       "icon": {
         "type": "fa",
         "content": "shopping-bag",
-        "bg": "#b36aba"
+        "bg": "transparent"
       },
       "openMode": "normal",
       "plugin": false,
@@ -209,6 +209,39 @@
       },
       "title": "应用商店",
       "url": "https://appstore.ylui.yuri2.cn",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-telegram": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "telegram",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "联系我",
+      "url": "https://t.me/mistyhill",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -311,6 +344,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "yl-mirror": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Telegram频道镜像",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "TG镜像",
+      "url": "https://mirror.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-proxy-53": {
       "addressBar": false,
       "autoRun": 0,
@@ -388,7 +454,7 @@
         "content": "plane",
         "bg": "transparent"
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -421,7 +487,7 @@
         "content": "plane",
         "bg": "transparent"
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -670,7 +736,7 @@
         "width": "x*0.8"
       },
       "title": "车车网盘",
-      "url": "https://gd.666986.xyz/",
+      "url": "https://cf-gd.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -703,7 +769,7 @@
         "width": "x*0.8"
       },
       "title": "车车车网盘",
-      "url": "https://gds.666986.xyz/",
+      "url": "https://cf-gds.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -784,7 +850,7 @@
         "content": "headphones",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -817,7 +883,7 @@
         "content": "bolt",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -850,7 +916,7 @@
         "content": "unlock-alt",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -883,7 +949,7 @@
         "content": "rss",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -949,7 +1015,7 @@
         "content": "file-image-o",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -982,7 +1048,7 @@
         "content": "file",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -1015,7 +1081,7 @@
         "content": "rss-square",
         "bg": "transparent"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -1048,7 +1114,7 @@
         "content": "cloud-download",
         "bg": "transparent"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -1708,7 +1774,7 @@
         "content": "meetup",
         "bg": "transparent"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -1939,7 +2005,7 @@
         "content": "female",
         "bg": "transparent"
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -2405,6 +2471,12 @@
       "hash": ""
     },
     {
+      "app": "yl-telegram",
+      "title": "联系我",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "yl-nav",
       "title": "完整导航",
       "params": {},
@@ -2443,6 +2515,12 @@
     {
       "app": "yl-tfile",
       "title": "文件上传",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-mirror",
+      "title": "TG镜像",
       "params": {},
       "hash": ""
     },
@@ -2532,7 +2610,7 @@
       "title": "常用功能",
       "children": [
         {
-          "app": "yl-music",
+          "app": "yl-unlock",
           "title": "音乐解锁",
           "params": {},
           "hash": ""
@@ -2797,13 +2875,13 @@
       "children": [
         {
           "app": "yl-3rd-img",
-          "title": "在线office",
+          "title": "随机图Api",
           "params": {},
           "hash": ""
         },
         {
           "app": "yl-3rd-xjj",
-          "title": "在线office",
+          "title": "随机姐姐Api",
           "params": {},
           "hash": ""
         }
@@ -2814,13 +2892,13 @@
       "children": [
         {
           "app": "yl-3rd-2girl",
-          "title": "在线office",
+          "title": "妹子们",
           "params": {},
           "hash": ""
         },
         {
           "app": "yl-3rd-girl",
-          "title": "在线office",
+          "title": "妹子们2",
           "params": {},
           "hash": ""
         }
