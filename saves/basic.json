@@ -1235,6 +1235,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-nav": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 导航程序",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "导航程序",
+      "url": "https://nav.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-guide": {
       "addressBar": false,
       "autoRun": 0,
@@ -1243,7 +1276,7 @@
       "desc": "CloudFlare Worker 导航程序",
       "icon": {
         "type": "fa",
-        "content": "guide",
+        "content": "glide-g",
         "bg": "transparent"
       },
       "openMode": "max",
@@ -1474,7 +1507,7 @@
       "desc": "CloudFlare Page 图床",
       "icon": {
         "type": "fa",
-        "content": "picture",
+        "content": "picture-o",
         "bg": "transparent"
       },
       "openMode": "max",
@@ -2368,6 +2401,12 @@
     {
       "app": "yl-app-store",
       "title": "应用商店",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-nav",
+      "title": "完整导航",
       "params": {},
       "hash": ""
     },
