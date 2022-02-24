@@ -21,7 +21,7 @@ window.YL = {
       configs: {
         topTaskBar: true, //顶部任务栏？默认底部
         sound: false,//开启声音
-        wallpaper: './res/img/wallpapers/bg1.jpg',
+        wallpaper: './res/img/wallpapers/bg.jpg',
         wallpaperBlur: false, //壁纸模糊（影响性能）
         wallpaperSlide: false, //壁纸幻灯片
         wallpaperSlideRandom: false, //壁纸幻灯片顺序随机（否则顺序播放）

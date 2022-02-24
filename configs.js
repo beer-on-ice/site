@@ -6,7 +6,7 @@ YL.static = {
   author: 'mistyhill',//作者
   contactInformation: 'https://t.me/mistyhill',//联系方式
   officialWebsite: 'https://nav.666986.xyz',//软件官网
-  welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
+  welcome: '本网站UI由 CloudFlare 强力驱动！',//加载完毕控制台提示信息
   copyrightDetail: 'null',//版权详细信息
   otherStatements: '',//其他信息（可留空）
 
