@@ -1,0 +1,2873 @@
+{
+  "configs": {
+    "topTaskBar": false,
+    "sound": false,
+    "wallpaper": "./res/img/wallpapers/bg1.jpg",
+    "wallpaperBlur": false,
+    "wallpaperSlide": false,
+    "wallpaperSlideRandom": true,
+    "wallpaperSlideItv": 1,
+    "wallpaperSlideTime": 1519442460788,
+    "wallpaperSlideIndex": 8,
+    "openMax": 9,
+    "idCounter": 170,
+    "themeColor": "rgba(2,35,64,1)",
+    "autoThemeColor": true,
+    "wallpapers": [
+      {
+        "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
+      },
+      {
+        "image": "./res/img/wallpapers/bg1.jpg",
+        "preview": "./res/img/wallpapers/bg1_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg2.jpg",
+        "preview": "./res/img/wallpapers/bg2_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg3.jpg",
+        "preview": "./res/img/wallpapers/bg3_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg4.jpg",
+        "preview": "./res/img/wallpapers/bg4_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg5.jpg",
+        "preview": "./res/img/wallpapers/bg5_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg6.jpg",
+        "preview": "./res/img/wallpapers/bg6_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg7.jpg",
+        "preview": "./res/img/wallpapers/bg7_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg8.jpg",
+        "preview": "./res/img/wallpapers/bg8_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg9.jpg",
+        "preview": "./res/img/wallpapers/bg9_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg10.jpg",
+        "preview": "./res/img/wallpapers/bg10_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg11.jpg",
+        "preview": "./res/img/wallpapers/bg11_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg12.jpg",
+        "preview": "./res/img/wallpapers/bg12_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg13.jpg",
+        "preview": "./res/img/wallpapers/bg13_1.jpg"
+      },
+      {
+        "image": "./res/img/wallpapers/bg14.jpg",
+        "preview": "./res/img/wallpapers/bg14_1.jpg"
+      }
+    ],
+    "pathRes": "./res",
+    "shortcutsSortAuto": true,
+    "debug": false,
+    "winBlur": true
+  },
+  "apps": {
+    "yl-system": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "YLUI系统设置面板",
+      "icon": {
+        "type": "fa",
+        "bg": "#436fde",
+        "content": "gear"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "x": "x*0.05",
+        "y": "y*0.05",
+        "left": true,
+        "top": true,
+        "autoOffset": true
+      },
+      "version": "1.0.0",
+      "poweredBy": "YLUI",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "width": "920",
+        "height": "590"
+      },
+      "title": "系统设置",
+      "url": "./res/apps/yl-system/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-color-picker": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "简单的取色器",
+      "icon": {
+        "type": "fa",
+        "bg": "#3289c7",
+        "content": "eyedropper"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "x": "(x-207)/2",
+        "y": "(y-239)/2",
+        "left": true,
+        "top": true,
+        "autoOffset": false
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": false,
+      "single": true,
+      "size": {
+        "width": "207",
+        "height": "239"
+      },
+      "title": "取色器",
+      "url": "./res/apps/colorPicker/colorPicker.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-browser": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "浏览器",
+      "icon": {
+        "type": "fa",
+        "content": "internet-explorer",
+        "bg": "#3a55c2"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "浏览器",
+      "url": "./res/apps/browser/index.html",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-app-store": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "shopping-bag",
+        "bg": "#b36aba"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "应用商店",
+      "url": "https://appstore.ylui.yuri2.cn",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "ylui-github": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "github仓库地址",
+      "icon": {
+        "type": "fa",
+        "content": "github",
+        "bg": "#292929"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "github",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "github",
+      "url": "https://github.com:/beer-on-ice",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "ylui-fa": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "flag",
+        "bg": "rgb(53,154,238)"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Font Awesome",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Font Awesome",
+      "url": "https://fontawesome.com:/cheatsheet",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "ylui-image-host": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "image",
+        "bg": "#72b076"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "imgchr.com",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "路过图床",
+      "url": "https://imgchr.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-proxy-53": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "反向代理，穿越大墙",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "53号隧道",
+      "url": "https://proxyall.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-proxy-site": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "反向代理，穿越大墙",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "SiteProxy",
+      "url": "https://proxy.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-proxy-heroku": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Heroku代理池，穿越大墙",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "公益节点",
+      "url": "https://freeway.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-proxy-euserv": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Euserv代理池，穿越大墙",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "公益节点池",
+      "url": "https://bt.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-list": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Vercel网盘",
+      "url": "https://list.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-pan": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Glitch部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list-ul",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Glitch网盘",
+      "url": "https://pan.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-disk": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare OnePoint部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list-alt",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Disk网盘",
+      "url": "https://disk.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-baidu": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Bdpcs部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "th-list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "百度网盘",
+      "url": "https://bdpcs.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-hero": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Heroku部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "bars",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "聚合网盘",
+      "url": "https://hero.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-odm": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare ODM部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "lastfm",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "垃圾网盘",
+      "url": "https://odm.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-gd": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare GD部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "google-wallet",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "车车网盘",
+      "url": "https://gd.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-gds": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare GDS部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "google",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "车车车网盘",
+      "url": "https://gds.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-uptime": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "网站在线监测",
+      "icon": {
+        "type": "fa",
+        "content": "arrow-up",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "在线监测",
+      "url": "https://uptime.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-status": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "网站站点检测",
+      "icon": {
+        "type": "fa",
+        "content": "upload",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "站点检测",
+      "url": "https://status.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-music": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "音乐播放器",
+      "icon": {
+        "type": "fa",
+        "content": "headphones",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "音乐播放器",
+      "url": "https://music.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-clash": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "clash订阅转换",
+      "icon": {
+        "type": "fa",
+        "content": "bolt",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "订阅转换",
+      "url": "https://clash.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-unlock": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "音乐解锁",
+      "icon": {
+        "type": "fa",
+        "content": "unlock-alt",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "音乐解锁",
+      "url": "https://uv.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-inkrss": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "订阅推送控制",
+      "icon": {
+        "type": "fa",
+        "content": "rss",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "订阅推送",
+      "url": "https://inkrss.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-imgup": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare IPFS图床",
+      "icon": {
+        "type": "fa",
+        "content": "picture-o",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "订阅推送",
+      "url": "https://cf-img.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-ipfs": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare IPFS图床",
+      "icon": {
+        "type": "fa",
+        "content": "file-image-o",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "ipfs图床",
+      "url": "https://cf-ipfs.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-tfile": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 文件上传",
+      "icon": {
+        "type": "fa",
+        "content": "file",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "文件上传",
+      "url": "https://tfile.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-fishrss": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 在线订阅阅读",
+      "icon": {
+        "type": "fa",
+        "content": "rss-square",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "在线订阅阅读",
+      "url": "https://fishrss.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-nut": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page Aria2面板",
+      "icon": {
+        "type": "fa",
+        "content": "cloud-download",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Aria2面板",
+      "url": "https://nut.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-apis": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker API加速",
+      "icon": {
+        "type": "fa",
+        "content": "grav",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Api加速",
+      "url": "https://apis.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-down": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 下载加速",
+      "icon": {
+        "type": "fa",
+        "content": "download",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "下载加速",
+      "url": "https://down.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-git-down": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker GIT下载加速",
+      "icon": {
+        "type": "fa",
+        "content": "git",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "GIT下载加速",
+      "url": "https://git.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-bd-down": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 百度加速下载",
+      "icon": {
+        "type": "fa",
+        "content": "tasks",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "百度加速",
+      "url": "https://pandown.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-cf-blog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 博客程序",
+      "icon": {
+        "type": "fa",
+        "content": "th-large",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "博客程序",
+      "url": "https://blog.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-guide": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 导航程序",
+      "icon": {
+        "type": "fa",
+        "content": "guide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "导航程序",
+      "url": "https://guide.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-short": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 缩短网址",
+      "icon": {
+        "type": "fa",
+        "content": "compress",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "缩短网址",
+      "url": "https://short.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-small": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 短网址",
+      "icon": {
+        "type": "fa",
+        "content": "compress",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "缩短网址",
+      "url": "https://small.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-helper": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page linux指令",
+      "icon": {
+        "type": "fa",
+        "content": "question",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Linux指令",
+      "url": "https://helper.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-vaporwave": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 蒸汽波",
+      "icon": {
+        "type": "fa",
+        "content": "anchor",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Linux指令",
+      "url": "https://vaporwave.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-logoly": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page PornLogo",
+      "icon": {
+        "type": "fa",
+        "content": "linode",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "P站风格Logo",
+      "url": "https://logoly.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-sosos": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 热搜",
+      "icon": {
+        "type": "fa",
+        "content": "soundcloud",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "热搜",
+      "url": "https://sosos.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pup": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 图床",
+      "icon": {
+        "type": "fa",
+        "content": "picture",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "图床",
+      "url": "https://pup.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-wallhaven": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 壁纸",
+      "icon": {
+        "type": "fa",
+        "content": "ravelry",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "壁纸网站",
+      "url": "https://wallhaven.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-fuckip": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page ip归属地",
+      "icon": {
+        "type": "fa",
+        "content": "compass",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "IP归属地",
+      "url": "https://fuckip.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-fuckips": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page ip归属地2",
+      "icon": {
+        "type": "fa",
+        "content": "compass",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "IP归属地2",
+      "url": "https://fuckips.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-marksfz": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 打水印",
+      "icon": {
+        "type": "fa",
+        "content": "barcode",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "打水印",
+      "url": "https://marksfz.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-wastes": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 流量消耗器",
+      "icon": {
+        "type": "fa",
+        "content": "trash",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "流量消耗器",
+      "url": "https://wastes.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-aria": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel Aria2面板",
+      "icon": {
+        "type": "fa",
+        "content": "meetup",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Aria2面板",
+      "url": "https://aria.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-office": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel office",
+      "icon": {
+        "type": "fa",
+        "content": "book",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "在线office",
+      "url": "https://office.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-163": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel 网易云Api",
+      "icon": {
+        "type": "fa",
+        "content": "music",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "网易云Api",
+      "url": "https://163.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-waline": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel 评论Api",
+      "icon": {
+        "type": "fa",
+        "content": "comment",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "评论Api",
+      "url": "https://waline.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-rsshub": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel 订阅Api",
+      "icon": {
+        "type": "fa",
+        "content": "rss",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "订阅Api",
+      "url": "https://rsshub.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-paobook": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page Pua",
+      "icon": {
+        "type": "fa",
+        "content": "bookmark",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Pua书",
+      "url": "https://paobook.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-driver": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page M3u8播放",
+      "icon": {
+        "type": "fa",
+        "content": "coffee",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "M3u8播放",
+      "url": "https://driver.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-nv": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 随机XJJ",
+      "icon": {
+        "type": "fa",
+        "content": "female",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "随机XJJ",
+      "url": "https://nv.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-zhangwei": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "贪吃蛇",
+      "icon": {
+        "type": "fa",
+        "content": "long-arrow-right",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "贪吃蛇",
+      "url": "https://zhangwei.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-fuckdog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "舔狗日记",
+      "icon": {
+        "type": "fa",
+        "content": "asterisk",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "舔狗日记",
+      "url": "https://fuckdog.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-warmer": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "暖手宝",
+      "icon": {
+        "type": "fa",
+        "content": "fire",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "暖手宝",
+      "url": "https://warmer.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-coldair": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携小空调",
+      "icon": {
+        "type": "fa",
+        "content": "bed",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携小空调",
+      "url": "https://coldair.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-coldfan": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携小风扇",
+      "icon": {
+        "type": "fa",
+        "content": "beer",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携小风扇",
+      "url": "https://coldfan.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-oldtv": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携老电视",
+      "icon": {
+        "type": "fa",
+        "content": "television",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携老电视",
+      "url": "https://oldtv.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-oldfc": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携fc",
+      "icon": {
+        "type": "fa",
+        "content": "gbp",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携fc",
+      "url": "https://oldfc.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-gbajs": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携gba",
+      "icon": {
+        "type": "fa",
+        "content": "adjust",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携gba",
+      "url": "https://gbajs.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-russiatetris": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "便携俄罗斯方块",
+      "icon": {
+        "type": "fa",
+        "content": "gamepad",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "便携俄罗斯方块",
+      "url": "https://russiatetris.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-3rd-img": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "随机美图Api",
+      "icon": {
+        "type": "fa",
+        "content": "trophy",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "随机美图",
+      "url": "http://img.btu.pp.ua/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-3rd-xjj": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "随机美女Api",
+      "icon": {
+        "type": "fa",
+        "content": "deaf",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "随机美女",
+      "url": "https://random.arrontg.cf/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-3rd-2girl": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "美女图站",
+      "icon": {
+        "type": "fa",
+        "content": "crop",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "美女图站",
+      "url": "https://2girl.top",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-3rd-girl": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "美女图站2",
+      "icon": {
+        "type": "fa",
+        "content": "fax",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "美女图站2",
+      "url": "https://diskgirl.com/",
+      "customTile": "",
+      "urlRandomToken": false
+    }
+  },
+  "shortcuts": [
+    {
+      "app": "yl-browser",
+      "title": "浏览器",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-app-store",
+      "title": "应用商店",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-uptime",
+      "title": "在线监测",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-status",
+      "title": "站点检测",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-music",
+      "title": "音乐播放器",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-clash",
+      "title": "订阅转换",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-ipfs",
+      "title": "ipfs图床",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-tfile",
+      "title": "文件上传",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "title": "自由之路",
+      "children": [
+        {
+          "app": "yl-proxy-53",
+          "title": "反代",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-proxy-site",
+          "title": "反代2",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-proxy-heroku",
+          "title": "公益节点",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-proxy-euserv",
+          "title": "公益节点池",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "自建网盘",
+      "children": [
+        {
+          "app": "yl-pan-list",
+          "title": "Vercel网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-pan",
+          "title": "Glitch网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-disk",
+          "title": "Disk网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-baidu",
+          "title": "百度网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-hero",
+          "title": "聚合网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-odm",
+          "title": "垃圾网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-gd",
+          "title": "车车网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-gds",
+          "title": "车车车网盘",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "常用功能",
+      "children": [
+        {
+          "app": "yl-music",
+          "title": "音乐解锁",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-inkrss",
+          "title": "订阅推送",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fishrss",
+          "title": "订阅在线阅读",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fuckip",
+          "title": "ip归属地",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fuckips",
+          "title": "ip归属地2",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-imgup",
+          "title": "图床",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-aria",
+          "title": "Aria面板",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "CF-WORKER",
+      "children": [
+        {
+          "app": "yl-apis",
+          "title": "API加速",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-git-down",
+          "title": "Git加速",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-down",
+          "title": "下载加速",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-bd-down",
+          "title": "百度加速",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-cf-blog",
+          "title": "博客程序",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-guide",
+          "title": "导航程序",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-short",
+          "title": "缩短网址",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-small",
+          "title": "短网址",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "CF-PAGE",
+      "children": [
+        {
+          "app": "yl-helper",
+          "title": "Linux指令",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-vaporwave",
+          "title": "蒸汽波",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-logoly",
+          "title": "P站风格Logo",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-sosos",
+          "title": "热搜",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pup",
+          "title": "图床",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-wallhaven",
+          "title": "壁纸",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-wastes",
+          "title": "流量消耗器",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-nut",
+          "title": "Aria面板",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "Vercel",
+      "children": [
+        {
+          "app": "yl-office",
+          "title": "在线office",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-163",
+          "title": "网易云Api",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-waline",
+          "title": "评论Api",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-rsshub",
+          "title": "订阅Api",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "游戏娱乐",
+      "children": [
+        {
+          "app": "yl-zhangwei",
+          "title": "贪吃蛇",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fuckdog",
+          "title": "舔狗日记",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-warmer",
+          "title": "便携暖手宝",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-coldair",
+          "title": "便携空调",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-coldfan",
+          "title": "便携风扇",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-oldtv",
+          "title": "便携老电视",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-oldfc",
+          "title": "便携fc",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-gbajs",
+          "title": "便携gba",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-russiatetris",
+          "title": "便携俄罗斯方块",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "开车专区",
+      "children": [
+        {
+          "app": "yl-paobook",
+          "title": "炮学",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-driver",
+          "title": "M3u8播放",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-nv",
+          "title": "随机小姐姐",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "三方Api",
+      "children": [
+        {
+          "app": "yl-3rd-img",
+          "title": "在线office",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-3rd-xjj",
+          "title": "在线office",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "三方网站",
+      "children": [
+        {
+          "app": "yl-3rd-2girl",
+          "title": "在线office",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-3rd-girl",
+          "title": "在线office",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "title": "系统",
+      "data": [
+        {
+          "x": 0,
+          "y": 6,
+          "w": 2,
+          "h": 2,
+          "app": "yl-app-store",
+          "title": "应用商店",
+          "i": "91",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "x": 0,
+          "y": 4,
+          "w": 4,
+          "h": 2,
+          "app": "yl-system",
+          "title": "系统设置",
+          "i": "110",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "w": 2,
+          "h": 2,
+          "app": "yl-browser",
+          "title": "浏览器",
+          "i": "146",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    }
+  ],
+  "startMenu": {
+    "width": 620,
+    "height": 494,
+    "sidebar": [
+      {
+        "app": "yl-browser",
+        "title": "浏览器",
+        "params": {},
+        "hash": ""
+      },
+      {
+        "app": "yl-system",
+        "title": "系统设置"
+      }
+    ],
+    "menu": {
+      "itemPushed-85": {
+        "app": "yl-browser",
+        "title": "浏览器",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-96": {
+        "app": "yl-system",
+        "title": "系统设置",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-88": {
+        "app": "yl-app-store",
+        "title": "应用商店",
+        "params": {},
+        "hash": ""
+      },
+      "itemPushed-157": {
+        "app": "ylui-github",
+        "title": "github",
+        "params": {},
+        "hash": ""
+      }
+    }
+  }
+}
