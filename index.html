@@ -581,7 +581,6 @@
           v-for="(msg,id) in msgPres"
           class="msg-attention animated"
           :key="msg.key"
-          @click="center.open = true"
           :style="{bottom: msg.index*180+40+'px'}"
           v-if="msg"
         >

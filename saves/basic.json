@@ -1730,7 +1730,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-wastes": {
+    "yl-bla": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
@@ -1741,7 +1741,7 @@
         "content": "trash",
         "bg": "transparent"
       },
-      "openMode": "max",
+      "openMode": "outer",
       "plugin": false,
       "position": {
         "autoOffset": true,
@@ -1759,6 +1759,39 @@
         "width": "x*0.8"
       },
       "title": "流量消耗器",
+      "url": "https://bla.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-wastes": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 流量消耗器2",
+      "icon": {
+        "type": "fa",
+        "content": "trash",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "流量消耗器2",
       "url": "https://wastes.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
@@ -2634,8 +2667,8 @@
           "hash": ""
         },
         {
-          "app": "yl-fuckips",
-          "title": "ip归属地2",
+          "app": "yl-bla",
+          "title": "流量消耗器",
           "params": {},
           "hash": ""
         },
@@ -2710,6 +2743,18 @@
       "title": "CF-PAGE",
       "children": [
         {
+          "app": "yl-wastes",
+          "title": "流量消耗器2",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fuckips",
+          "title": "ip归属地2",
+          "params": {},
+          "hash": ""
+        },
+        {
           "app": "yl-helper",
           "title": "Linux指令",
           "params": {},
@@ -2742,12 +2787,6 @@
         {
           "app": "yl-wallhaven",
           "title": "壁纸",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-wastes",
-          "title": "流量消耗器",
           "params": {},
           "hash": ""
         },

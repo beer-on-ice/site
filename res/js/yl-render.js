@@ -411,6 +411,13 @@ YL.render = function (data) {
           autoRun()
         }
 
+         // 进入全屏提示
+         YL.onReady(function () {
+          setTimeout(function () {
+            YL.msg("想要拥有更好的体验？", '当前为非全屏模式，是否启用全屏模式，以获得更好的用户体验？桌面右击选择启用全屏，或者点击 <span id="fullScreenBtn" style="color: yellow;cursor:pointer;fontWeight:bold;" onClick="YL.util.enableFullScreen();e.preventDefault();">此处</span> 立即享受！');
+          }, 1000)
+        });
+
 
         this.ready = true;
       },
