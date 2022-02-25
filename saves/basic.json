@@ -254,7 +254,7 @@
       "icon": {
         "type": "fa",
         "content": "github",
-        "bg": "#292929"
+        "bg": "tranparent"
       },
       "openMode": "outer",
       "plugin": false,
@@ -2510,8 +2510,8 @@
       "hash": ""
     },
     {
-      "app": "yl-nav",
-      "title": "完整导航",
+      "app": "ylui-github",
+      "title": "Github",
       "params": {},
       "hash": ""
     },
@@ -2742,6 +2742,12 @@
     {
       "title": "CF-PAGE",
       "children": [
+        {
+          "app": "yl-nav",
+          "title": "完整导航",
+          "params": {},
+          "hash": ""
+        },
         {
           "app": "yl-wastes",
           "title": "流量消耗器2",
