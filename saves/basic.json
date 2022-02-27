@@ -80,6 +80,39 @@
     "winBlur": true
   },
   "apps": {
+    "yl-inner": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "内网导航,家宽打开",
+      "icon": {
+        "type": "fa",
+        "content": "shield",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "内网导航",
+      "url": "http://192.168.50.38",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-system": {
       "addressBar": false,
       "autoRun": 0,
@@ -2491,6 +2524,12 @@
     }
   },
   "shortcuts": [
+    {
+      "app": "yl-inner",
+      "title": "内网导航",
+      "params": {},
+      "hash": ""
+    },
     {
       "app": "yl-browser",
       "title": "浏览器",
