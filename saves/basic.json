@@ -542,6 +542,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-proxy-share": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "MJJ免费机场",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "MJJ免费机场",
+      "url": "https://sspanel.oracleusa.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-pan-list": {
       "addressBar": false,
       "autoRun": 0,
@@ -1301,6 +1334,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-blog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 博客程序",
+      "icon": {
+        "type": "fa",
+        "content": "th-large",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "个人博客",
+      "url": "https://blog.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-cf-blog": {
       "addressBar": false,
       "autoRun": 0,
@@ -1329,8 +1395,41 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "博客程序",
-      "url": "https://blog.666986.xyz/",
+      "title": "CF-博客",
+      "url": "https://cf-blog.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-git-blog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "GIT Hexo博客",
+      "icon": {
+        "type": "fa",
+        "content": "th-large",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "GIT-博客",
+      "url": "https://git-blog.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -2555,6 +2654,12 @@
       "hash": ""
     },
     {
+      "app": "yl-blog",
+      "title": "个人博客",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "yl-uptime",
       "title": "在线监测",
       "params": {},
@@ -2620,6 +2725,12 @@
         {
           "app": "yl-proxy-euserv",
           "title": "公益节点池",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-proxy-share",
+          "title": "MJJ免费机场",
           "params": {},
           "hash": ""
         }
@@ -2722,6 +2833,12 @@
           "title": "Aria面板",
           "params": {},
           "hash": ""
+        },
+        {
+          "app": "yl-git-blog",
+          "title": "GIT-博客",
+          "params": {},
+          "hash": ""
         }
       ]
     },
@@ -2754,7 +2871,7 @@
         },
         {
           "app": "yl-cf-blog",
-          "title": "博客程序",
+          "title": "CF-博客",
           "params": {},
           "hash": ""
         },
