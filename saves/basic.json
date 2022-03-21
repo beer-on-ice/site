@@ -575,6 +575,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-pan-store": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Heroku部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list-ul",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Alist网盘",
+      "url": "https://store.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-pan-list": {
       "addressBar": false,
       "autoRun": 0,
@@ -2739,6 +2772,12 @@
     {
       "title": "自建网盘",
       "children": [
+        {
+          "app": "yl-pan-store",
+          "title": "Alist网盘",
+          "params": {},
+          "hash": ""
+        },
         {
           "app": "yl-pan-list",
           "title": "Vercel网盘",
