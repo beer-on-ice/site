@@ -3088,29 +3088,6 @@
       ]
     },
     {
-      "title": "开车专区",
-      "children": [
-        {
-          "app": "yl-paobook",
-          "title": "炮学",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-driver",
-          "title": "M3u8播放",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-nv",
-          "title": "随机小姐姐",
-          "params": {},
-          "hash": ""
-        }
-      ]
-    },
-    {
       "title": "三方Api",
       "children": [
         {
@@ -3121,15 +3098,33 @@
         },
         {
           "app": "yl-3rd-xjj",
-          "title": "随机姐姐Api",
+          "title": "随机Api",
           "params": {},
           "hash": ""
         }
       ]
     },
     {
-      "title": "三方网站",
+      "title": "其他专区",
       "children": [
+        {
+          "app": "yl-driver",
+          "title": "M3u8播放",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-paobook",
+          "title": "炮学",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-nv",
+          "title": "随机小姐姐",
+          "params": {},
+          "hash": ""
+        },
         {
           "app": "yl-3rd-2girl",
           "title": "妹子们",
