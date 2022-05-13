@@ -115,7 +115,6 @@ window.YL = {
     //数据处理
     data = data ? data : (localStorage.getItem(YL.static.localStorageName) ? (JSON.parse(localStorage.getItem(YL.static.localStorageName))) : this._baseData());
     data = YL.format(data);
-    console.log(111,data)
     $("#loading").remove();
     YL.render(data);
     //ready调用
@@ -123,7 +122,7 @@ window.YL = {
       t();
     })
   },
-  reset: function () {
+  reset: function (cb) {
     //清空vue数据
     var data = this._baseData();
     var vue = YL.vue;
@@ -177,8 +176,16 @@ window.YL = {
       data: { nav: "aboutUs" }
     });
   },
+  nsfw: function () {
+    //nsfw
+    var v = this.vue;
+    //删除依赖图标
+    for (var i = v.shortcuts.length - 1; i >= 0; i--) {
+      var s = v.shortcuts[i];
+      s.hidden = false
+    }
+  },
   uninstall: function (appId) {
-
     if (Yuri2.inArray(YL.static.lockedApps, appId)) {
       this.util.simpleMsg(YL.lang("UninstallFailed") + YL.lang("AppLockedCanNotChange"));
       return false;

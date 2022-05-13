@@ -1192,6 +1192,9 @@ YL.render = function (data) {
           [YL.util.getStrFa('info-circle') + YL.lang("AboutUs"), function () {
             YL.aboutUs()
           }],
+          [YL.util.getStrFa('info-circle') + YL.lang("Nsfw"), function () {
+            YL.nsfw()
+          }],
         ];
         ContextMenu.render(e, menu, this, "light");
       },
