@@ -115,7 +115,7 @@
           :key="id"
           @mousedown="shortcutMouseDown(id,null, $event)"
           @touchstart="shortcutMouseDown(id,null, $event)"
-          v-show="runtime.shortcutsShow"
+          v-show="runtime.shortcutsShow && !s.hidden"
           @contextMenu="shortcutContextMenu(id,null,$event)"
           :title="s.title"
           :style="shortcutStyle(id,null)"

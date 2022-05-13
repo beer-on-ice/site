@@ -3089,6 +3089,7 @@
     },
     {
       "title": "三方Api",
+      "hidden": true,
       "children": [
         {
           "app": "yl-3rd-img",
@@ -3106,6 +3107,7 @@
     },
     {
       "title": "其他专区",
+      "hidden": true,
       "children": [
         {
           "app": "yl-driver",

@@ -115,6 +115,7 @@ window.YL = {
     //数据处理
     data = data ? data : (localStorage.getItem(YL.static.localStorageName) ? (JSON.parse(localStorage.getItem(YL.static.localStorageName))) : this._baseData());
     data = YL.format(data);
+    console.log(111,data)
     $("#loading").remove();
     YL.render(data);
     //ready调用
