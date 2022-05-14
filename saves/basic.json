@@ -410,6 +410,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-chater": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "跟我语音吧",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "跟我语音吧",
+      "url": "https://chater.pages.dev/mistyhill",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-proxy-53": {
       "addressBar": false,
       "autoRun": 0,
@@ -2681,6 +2714,12 @@
       "hash": ""
     },
     {
+      "app": "yl-chater",
+      "title": "跟我语音吧",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "ylui-github",
       "title": "Github",
       "params": {},
@@ -2727,13 +2766,6 @@
       "title": "文件上传",
       "params": {},
       "hash": ""
-    },
-    {
-      "app": "yl-mirror",
-      "title": "TG镜像",
-      "params": {},
-      "hash": "",
-      "hidden": true
     },
     {
       "title": "自由之路",
@@ -3088,6 +3120,13 @@
           "hash": ""
         }
       ]
+    },
+    {
+      "app": "yl-mirror",
+      "title": "TG镜像",
+      "params": {},
+      "hash": "",
+      "hidden": true
     },
     {
       "title": "三方Api",
