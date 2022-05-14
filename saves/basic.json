@@ -2732,7 +2732,8 @@
       "app": "yl-mirror",
       "title": "TG镜像",
       "params": {},
-      "hash": ""
+      "hash": "",
+      "hidden": true
     },
     {
       "title": "自由之路",
@@ -2776,7 +2777,8 @@
           "app": "yl-pan-store",
           "title": "Alist网盘",
           "params": {},
-          "hash": ""
+          "hash": "",
+          "hidden":true
         },
         {
           "app": "yl-pan-list",
