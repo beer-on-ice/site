@@ -2803,66 +2803,6 @@
       ]
     },
     {
-      "title": "自建网盘",
-      "children": [
-        {
-          "app": "yl-pan-store",
-          "title": "Alist网盘",
-          "params": {},
-          "hash": "",
-          "hidden":true
-        },
-        {
-          "app": "yl-pan-list",
-          "title": "Vercel网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-pan",
-          "title": "Glitch网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-disk",
-          "title": "Disk网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-baidu",
-          "title": "百度网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-hero",
-          "title": "聚合网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-odm",
-          "title": "垃圾网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-gd",
-          "title": "车车网盘",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-pan-gds",
-          "title": "车车车网盘",
-          "params": {},
-          "hash": ""
-        }
-      ]
-    },
-    {
       "title": "常用功能",
       "children": [
         {
@@ -3116,6 +3056,67 @@
         {
           "app": "yl-russiatetris",
           "title": "便携俄罗斯方块",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "自建网盘",
+      "hidden": true,
+      "children": [
+        {
+          "app": "yl-pan-store",
+          "title": "Alist网盘",
+          "params": {},
+          "hash": "",
+          "hidden":true
+        },
+        {
+          "app": "yl-pan-list",
+          "title": "Vercel网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-pan",
+          "title": "Glitch网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-disk",
+          "title": "Disk网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-baidu",
+          "title": "百度网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-hero",
+          "title": "聚合网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-odm",
+          "title": "垃圾网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-gd",
+          "title": "车车网盘",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-pan-gds",
+          "title": "车车车网盘",
           "params": {},
           "hash": ""
         }
