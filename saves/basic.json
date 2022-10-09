@@ -580,7 +580,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "MJJ免费机场",
+      "desc": "一元机场",
       "icon": {
         "type": "fa",
         "content": "plane",
@@ -603,8 +603,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "MJJ免费机场",
-      "url": "https://sspanel.oracleusa.ml/",
+      "title": "一元机场",
+      "url": "https://xn--4gq62f52gdss.com/#/register?code=J0VZLqZ0/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -2796,7 +2796,7 @@
         },
         {
           "app": "yl-proxy-share",
-          "title": "MJJ免费机场",
+          "title": "一元机场",
           "params": {},
           "hash": ""
         }
