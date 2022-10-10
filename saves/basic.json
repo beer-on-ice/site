@@ -372,7 +372,7 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "LogiWebDpi",
+      "title": "WebDpi",
       "url": "https://logi.mistyhill.ml",
       "customTile": "",
       "urlRandomToken": false
@@ -2859,7 +2859,7 @@
     },
     {
       "app": "yl-logi-dpi",
-      "title": "LogiWebDpi",
+      "title": "WebDpi",
       "params": {},
       "hash": ""
     },
