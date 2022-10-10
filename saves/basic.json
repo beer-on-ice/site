@@ -309,7 +309,7 @@
       "title": "TG-WEB",
       "url": "https://tg.mistyhill.ml",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
     },
     "yl-pikpak-mirror": {
       "addressBar": false,
@@ -342,7 +342,7 @@
       "title": "pikpak网盘",
       "url": "https://pikpak.mistyhill.ml",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
     },
     "yl-logi-dpi": {
       "addressBar": false,
@@ -375,7 +375,40 @@
       "title": "LogiWebDpi",
       "url": "https://logi.mistyhill.ml",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
+    },
+    "yl-web-adb": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "connectdevelop",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "WebAdb",
+      "url": "https://linux-jin.github.io/ya-webadb",
+      "customTile": "",
+      "urlRandomToken": false
     },
     "ylui-github": {
       "addressBar": false,
@@ -2827,6 +2860,12 @@
     {
       "app": "yl-logi-dpi",
       "title": "LogiWebDpi",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-web-adb",
+      "title": "WebAdb",
       "params": {},
       "hash": ""
     },
