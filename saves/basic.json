@@ -344,6 +344,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "yl-logi-dpi": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "mouse-pointer",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "LogiWebDpi",
+      "url": "https://logi.mistyhill.ml",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "ylui-github": {
       "addressBar": false,
       "autoRun": 0,
@@ -2788,6 +2821,12 @@
     {
       "app": "yl-pikpak-mirror",
       "title": "pikpak网盘",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-logi-dpi",
+      "title": "LogiWebDpi",
       "params": {},
       "hash": ""
     },
