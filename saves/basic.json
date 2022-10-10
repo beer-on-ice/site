@@ -109,7 +109,7 @@
         "width": "x*0.8"
       },
       "title": "内网导航",
-      "url": "http://192.168.50.38",
+      "url": "https://www.666987.xyz:8443",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -275,6 +275,72 @@
       },
       "title": "联系我",
       "url": "https://t.me/mistyhill",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-tg-mirror": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "telegram",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "TG-WEB",
+      "url": "https://tg.mistyhill.ml",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yl-pikpak-mirror": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "folder",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "pikpak网盘",
+      "url": "https://pikpak.mistyhill.ml",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -2710,6 +2776,18 @@
     {
       "app": "yl-telegram",
       "title": "联系我",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-tg-mirror",
+      "title": "TG-WEB",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-pikpak-mirror",
+      "title": "pikpak网盘",
       "params": {},
       "hash": ""
     },
