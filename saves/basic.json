@@ -410,6 +410,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-iptv-list": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "connectdevelop",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Iptv源",
+      "url": "https://linux-jin.github.io/Tvlist-awesome-m3u-m3u8",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "ylui-github": {
       "addressBar": false,
       "autoRun": 0,
@@ -2869,6 +2902,13 @@
       "params": {},
       "hash": ""
     },
+    {
+      "app": "yl-iptv-list",
+      "title": "Iptv源",
+      "params": {},
+      "hash": ""
+    },
+    
     {
       "app": "yl-chater",
       "title": "跟我语音吧",
