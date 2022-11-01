@@ -1334,6 +1334,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-imgups": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Telegra.ph 图床",
+      "icon": {
+        "type": "fa",
+        "content": "file-image-o",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Fly图床",
+      "url": "https://img.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-tfile": {
       "addressBar": false,
       "autoRun": 0,
@@ -2879,6 +2912,12 @@
       "hash": ""
     },
     {
+      "app": "yl-imgups",
+      "title": "Fly图床",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "yl-tg-mirror",
       "title": "TG-WEB",
       "params": {},
@@ -2948,12 +2987,6 @@
     {
       "app": "yl-clash",
       "title": "订阅转换",
-      "params": {},
-      "hash": ""
-    },
-    {
-      "app": "yl-ipfs",
-      "title": "ipfs图床",
       "params": {},
       "hash": ""
     },
@@ -3152,6 +3185,12 @@
         {
           "app": "yl-pup",
           "title": "图床",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-ipfs",
+          "title": "ipfs图床",
           "params": {},
           "hash": ""
         },
