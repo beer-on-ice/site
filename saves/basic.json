@@ -274,9 +274,9 @@
         "width": "x*0.8"
       },
       "title": "联系我",
-      "url": "https://t.me/mistyhill",
+      "url": "https://t.me/mistyhills53",
       "customTile": "",
-      "urlRandomToken": true
+      "urlRandomToken": false
     },
     "yl-tg-mirror": {
       "addressBar": false,
