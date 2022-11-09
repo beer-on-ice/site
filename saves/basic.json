@@ -410,6 +410,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-bing-api": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "connectdevelop",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Bing每日图",
+      "url": "https://bing.mistyhill.ml/api/new",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-iptv-list": {
       "addressBar": false,
       "autoRun": 0,
@@ -2942,12 +2975,17 @@
       "hash": ""
     },
     {
+      "app": "yl-bing-api",
+      "title": "Bing每日图",
+      "params": {},
+      "hash": ""
+    },
+    {
       "app": "yl-iptv-list",
       "title": "Iptv源",
       "params": {},
       "hash": ""
     },
-    
     {
       "app": "yl-chater",
       "title": "跟我语音吧",
