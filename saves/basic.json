@@ -85,7 +85,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "内网导航,家宽打开",
+      "desc": "内网导航(失效)",
       "icon": {
         "type": "fa",
         "content": "shield",
@@ -274,7 +274,7 @@
         "width": "x*0.8"
       },
       "title": "联系我",
-      "url": "https://t.me/mistyhills53",
+      "url": "https://t.me/franknb",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -806,12 +806,12 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-pan-store": {
+    "yl-pan-token": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Heroku部署的网盘",
+      "desc": "阿里云盘token获取",
       "icon": {
         "type": "fa",
         "content": "list-ul",
@@ -834,8 +834,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "Alist网盘",
-      "url": "https://store.666986.xyz/",
+      "title": "网盘Token",
+      "url": "https://list-token.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -868,7 +868,7 @@
         "width": "x*0.8"
       },
       "title": "Vercel网盘",
-      "url": "https://list.666986.xyz/",
+      "url": "https://store.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -901,7 +901,7 @@
         "width": "x*0.8"
       },
       "title": "Glitch网盘",
-      "url": "https://pan.666986.xyz/",
+      "url": "https://pan.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1660,7 +1660,7 @@
         "width": "x*0.8"
       },
       "title": "个人博客",
-      "url": "https://blog.666986.xyz/",
+      "url": "https://blog.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -3339,11 +3339,11 @@
       "hidden": true,
       "children": [
         {
-          "app": "yl-pan-store",
+          "app": "yl-pan-token",
           "title": "Alist网盘",
           "params": {},
           "hash": "",
-          "hidden":true
+          "hidden": true
         },
         {
           "app": "yl-pan-list",
