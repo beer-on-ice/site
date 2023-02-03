@@ -1763,6 +1763,40 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-update": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 虚拟升级",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "虚拟升级",
+      "url": "https://update.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    
     "yl-guide": {
       "addressBar": false,
       "autoRun": 0,
@@ -3181,6 +3215,12 @@
         {
           "app": "yl-nav",
           "title": "完整导航",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-update",
+          "title": "虚拟升级",
           "params": {},
           "hash": ""
         },
