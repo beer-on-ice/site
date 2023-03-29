@@ -707,6 +707,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-type": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "打字练习",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "打字练习",
+      "url": "https://type.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-proxy-euserv": {
       "addressBar": false,
       "autoRun": 0,
@@ -967,7 +1000,172 @@
         "width": "x*0.8"
       },
       "title": "图书馆",
-      "url": "https://hero.666986.xyz/",
+      "url": "https://book.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-helpu-google": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "帮你google",
+      "icon": {
+        "type": "fa",
+        "content": "folder",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "帮你google",
+      "url": "https://helpu-google.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-helpu-baidu": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "帮你baidu",
+      "icon": {
+        "type": "fa",
+        "content": "folder",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "帮你baidu",
+      "url": "https://helpu-baidu.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-screenshot": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "朋友圈截图",
+      "icon": {
+        "type": "fa",
+        "content": "folder",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "朋友圈截图",
+      "url": "https://screenshot.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-vip": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "vip解析",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "vip解析",
+      "url": "https://vip.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-muyu": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 电子木鱼，积攒功德",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "电子木鱼",
+      "url": "https://muyu.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -3188,6 +3386,42 @@
         {
           "app": "yl-update",
           "title": "虚拟升级",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-helpu-google",
+          "title": "帮你谷歌",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-helpu-baidu",
+          "title": "帮你百度",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-type",
+          "title": "打字练习",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-screenshot",
+          "title": "朋友圈转发截图",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-vip",
+          "title": "vip解析",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-muyu",
+          "title": "电子木鱼",
           "params": {},
           "hash": ""
         },
