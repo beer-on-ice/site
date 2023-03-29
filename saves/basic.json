@@ -80,6 +80,39 @@
     "winBlur": true
   },
   "apps": {
+    "yl-inner": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "内网导航(失效)",
+      "icon": {
+        "type": "fa",
+        "content": "shield",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "内网导航",
+      "url": "https://inav.mistyhill.ml",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-system": {
       "addressBar": false,
       "autoRun": 0,
@@ -278,303 +311,6 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-type": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "打字练习",
-      "icon": {
-        "type": "fa",
-        "content": "globe",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "打字练习",
-      "url": "https://type.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-proxy-euserv": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "代理池，穿越大墙",
-      "icon": {
-        "type": "fa",
-        "content": "plane",
-        "bg": "transparent"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "公益节点池",
-      "url": "https://openit.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-pan-list": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "Vercel部署的网盘",
-      "icon": {
-        "type": "fa",
-        "content": "list",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "Vercel网盘",
-      "url": "https://store.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-pan-pan": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "Glitch部署的网盘",
-      "icon": {
-        "type": "fa",
-        "content": "list-ul",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "Glitch网盘",
-      "url": "https://pan.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-pan-hero": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "图书馆",
-      "icon": {
-        "type": "fa",
-        "content": "bars",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "图书馆",
-      "url": "https://book.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-chater": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "跟我语音吧",
-      "icon": {
-        "type": "fa",
-        "content": "globe",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "跟我语音吧",
-      "url": "https://chat.mistyhill.ml/mistyhill",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "ylui-image-host": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "fa",
-        "content": "image",
-        "bg": "#72b076"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "imgchr.com",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "图床",
-      "url": "https://imgs.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "yl-pan-token": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "阿里云盘token获取",
-      "icon": {
-        "type": "fa",
-        "content": "list-ul",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "网盘Token",
-      "url": "https://list-token.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-inner": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "内网导航(失效)",
-      "icon": {
-        "type": "fa",
-        "content": "shield",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "内网导航",
-      "url": "https://inav.mistyhill.ml",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "yl-pikpak-mirror": {
       "addressBar": false,
       "autoRun": 0,
@@ -605,105 +341,6 @@
       },
       "title": "pikpak网盘",
       "url": "https://pikpak.mistyhill.ml",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-helpu-google": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "帮你google",
-      "icon": {
-        "type": "fa",
-        "content": "folder",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "帮你google",
-      "url": "https://helpu-google.mistyhill.ml",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-helpu-baidu": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "帮你baidu",
-      "icon": {
-        "type": "fa",
-        "content": "folder",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "帮你baidu",
-      "url": "https://helpu-baidu.mistyhill.ml",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-screenshot": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "朋友圈截图",
-      "icon": {
-        "type": "fa",
-        "content": "folder",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "朋友圈截图",
-      "url": "https://screenshot.mistyhill.ml",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -905,6 +542,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "ylui-image-host": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "",
+      "icon": {
+        "type": "fa",
+        "content": "image",
+        "bg": "#72b076"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "imgchr.com",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "图床",
+      "url": "https://imgs.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "yl-mirror": {
       "addressBar": false,
       "autoRun": 0,
@@ -935,6 +605,39 @@
       },
       "title": "TG镜像",
       "url": "https://mirror.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-chater": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "跟我语音吧",
+      "icon": {
+        "type": "fa",
+        "content": "globe",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "跟我语音吧",
+      "url": "https://chat.mistyhill.ml/mistyhill",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1004,6 +707,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-proxy-euserv": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "代理池，穿越大墙",
+      "icon": {
+        "type": "fa",
+        "content": "plane",
+        "bg": "transparent"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "公益节点池",
+      "url": "https://openit.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-proxy-share": {
       "addressBar": false,
       "autoRun": 0,
@@ -1034,6 +770,105 @@
       },
       "title": "一元机场",
       "url": "https://xn--4gq62f52gdss.com/#/register?code=J0VZLqZ0/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-token": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "阿里云盘token获取",
+      "icon": {
+        "type": "fa",
+        "content": "list-ul",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "网盘Token",
+      "url": "https://list-token.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-list": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Vercel网盘",
+      "url": "https://store.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-pan": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Glitch部署的网盘",
+      "icon": {
+        "type": "fa",
+        "content": "list-ul",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "Glitch网盘",
+      "url": "https://pan.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1100,6 +935,39 @@
       },
       "title": "百度网盘",
       "url": "https://bdpcs.666986.xyz/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-pan-hero": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "图书馆",
+      "icon": {
+        "type": "fa",
+        "content": "bars",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "图书馆",
+      "url": "https://hero.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1466,73 +1334,6 @@
       "customTile": "",
       "urlRandomToken": false
     },
-
-    "yl-tfile": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "CloudFlare Page 文件上传",
-      "icon": {
-        "type": "fa",
-        "content": "file",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "文件上传",
-      "url": "https://tfile.666986.xyz/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-file": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "CloudFlare Page 文件快递",
-      "icon": {
-        "type": "fa",
-        "content": "file",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "快递柜",
-      "url": "https://file.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "yl-imgups": {
       "addressBar": false,
       "autoRun": 0,
@@ -1566,15 +1367,15 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-blog": {
+    "yl-tfile": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "CloudFlare Worker 博客程序",
+      "desc": "CloudFlare Page 文件上传",
       "icon": {
         "type": "fa",
-        "content": "th-large",
+        "content": "file",
         "bg": "transparent"
       },
       "openMode": "outer",
@@ -1594,107 +1395,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "个人博客",
-      "url": "https://blog.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-update": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "CloudFlare Page 虚拟升级",
-      "icon": {
-        "type": "fa",
-        "content": "glide",
-        "bg": "transparent"
-      },
-      "openMode": "max",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "虚拟升级",
-      "url": "https://update.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-vip": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "vip解析",
-      "icon": {
-        "type": "fa",
-        "content": "glide",
-        "bg": "transparent"
-      },
-      "openMode": "max",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "vip解析",
-      "url": "https://vip.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "yl-muyu": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "CloudFlare Page 电子木鱼，积攒功德",
-      "icon": {
-        "type": "fa",
-        "content": "glide",
-        "bg": "transparent"
-      },
-      "openMode": "max",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "电子木鱼",
-      "url": "https://muyu.mistyhill.ml/",
+      "title": "文件上传",
+      "url": "https://tfile.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1896,6 +1598,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-blog": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Worker 博客程序",
+      "icon": {
+        "type": "fa",
+        "content": "th-large",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "个人博客",
+      "url": "https://blog.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-cf-blog": {
       "addressBar": false,
       "autoRun": 0,
@@ -1995,6 +1730,40 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-update": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page 虚拟升级",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "虚拟升级",
+      "url": "https://update.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    
     "yl-guide": {
       "addressBar": false,
       "autoRun": 0,
@@ -3419,49 +3188,6 @@
         {
           "app": "yl-update",
           "title": "虚拟升级",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-vip",
-          "title": "vip解析",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-helpu-baidu",
-          "title": "帮你百度",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-helpu-screenshot",
-          "title": "朋友圈转发截图",
-          "params": {},
-          "hash": ""
-        },
-        
-        {
-          "app": "yl-helpu-google",
-          "title": "帮你谷歌",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-type",
-          "title": "打字练习",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-muyu",
-          "title": "电子木鱼",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "yl-file",
-          "title": "快递柜",
           "params": {},
           "hash": ""
         },
