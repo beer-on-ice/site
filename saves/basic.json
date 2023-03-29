@@ -274,7 +274,7 @@
         "width": "x*0.8"
       },
       "title": "联系我",
-      "url": "https://t.me/franknb",
+      "url": "https://tg.mistyhill.ml/#856146798",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -505,7 +505,7 @@
         "width": "x*0.8"
       },
       "title": "github",
-      "url": "https://github.com:/beer-on-ice",
+      "url": "https://github.com/beer-on-ice",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -570,8 +570,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "路过图床",
-      "url": "https://imgchr.com/",
+      "title": "图床",
+      "url": "https://imgs.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -707,45 +707,12 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-proxy-heroku": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "Heroku代理池，穿越大墙",
-      "icon": {
-        "type": "fa",
-        "content": "plane",
-        "bg": "transparent"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "公益节点",
-      "url": "https://freeway.666986.xyz/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "yl-proxy-euserv": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Euserv代理池，穿越大墙",
+      "desc": "代理池，穿越大墙",
       "icon": {
         "type": "fa",
         "content": "plane",
@@ -976,7 +943,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Heroku部署的网盘",
+      "desc": "图书馆",
       "icon": {
         "type": "fa",
         "content": "bars",
@@ -999,7 +966,7 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "聚合网盘",
+      "title": "图书馆",
       "url": "https://hero.666986.xyz/",
       "customTile": "",
       "urlRandomToken": false
@@ -3084,12 +3051,6 @@
           "hash": ""
         },
         {
-          "app": "yl-proxy-heroku",
-          "title": "公益节点",
-          "params": {},
-          "hash": ""
-        },
-        {
           "app": "yl-proxy-euserv",
           "title": "公益节点池",
           "params": {},
@@ -3213,6 +3174,12 @@
       "title": "CF-PAGE",
       "children": [
         {
+          "app": "ylui-image-host",
+          "title": "图床",
+          "params": {},
+          "hash": ""
+        },
+        {
           "app": "yl-nav",
           "title": "完整导航",
           "params": {},
@@ -3289,6 +3256,12 @@
     {
       "title": "Vercel",
       "children": [
+        {
+          "app": "yl-pan-hero",
+          "title": "图书馆",
+          "params": {},
+          "hash": ""
+        },
         {
           "app": "yl-office",
           "title": "在线office",
@@ -3409,12 +3382,7 @@
           "params": {},
           "hash": ""
         },
-        {
-          "app": "yl-pan-hero",
-          "title": "聚合网盘",
-          "params": {},
-          "hash": ""
-        },
+
         {
           "app": "yl-pan-odm",
           "title": "垃圾网盘",
