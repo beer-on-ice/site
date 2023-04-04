@@ -443,6 +443,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-news": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel部署的早报",
+      "icon": {
+        "type": "fa",
+        "content": "list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "每日早报",
+      "url": "https://news.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-iptv-list": {
       "addressBar": false,
       "autoRun": 0,
@@ -844,7 +877,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Vercel部署的网盘",
+      "desc": "Render-Me部署的网盘",
       "icon": {
         "type": "fa",
         "content": "list",
@@ -867,7 +900,7 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "Vercel网盘",
+      "title": "Render-Me网盘",
       "url": "https://store.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
@@ -877,7 +910,7 @@
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Glitch部署的网盘",
+      "desc": "Render-Pm部署的网盘",
       "icon": {
         "type": "fa",
         "content": "list-ul",
@@ -900,8 +933,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "Glitch网盘",
-      "url": "https://pan.mistyhill.ml/",
+      "title": "Render-PM网盘",
+      "url": "https://pm.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -3491,6 +3524,12 @@
       "title": "Vercel",
       "children": [
         {
+          "app": "yl-news",
+          "title": "每日早报",
+          "params": {},
+          "hash": ""
+        },
+        {
           "app": "yl-pan-hero",
           "title": "图书馆",
           "params": {},
@@ -3594,13 +3633,13 @@
         },
         {
           "app": "yl-pan-list",
-          "title": "Vercel网盘",
+          "title": "Render-Me网盘",
           "params": {},
           "hash": ""
         },
         {
           "app": "yl-pan-pan",
-          "title": "Glitch网盘",
+          "title": "Render-PM网盘",
           "params": {},
           "hash": ""
         },
