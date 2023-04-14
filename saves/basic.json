@@ -2358,6 +2358,39 @@
       "customTile": "",
       "urlRandomToken": false
     },
+    "yl-fuckipip": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "CloudFlare Page ipip归属地3",
+      "icon": {
+        "type": "fa",
+        "content": "compass",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "IP归属地3",
+      "url": "https://ipip.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
     "yl-marksfz": {
       "addressBar": false,
       "autoRun": 0,
@@ -3467,6 +3500,12 @@
         {
           "app": "yl-fuckips",
           "title": "ip归属地2",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-fuckipip",
+          "title": "ip归属地3",
           "params": {},
           "hash": ""
         },
