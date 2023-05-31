@@ -80,39 +80,6 @@
     "winBlur": true
   },
   "apps": {
-    "yl-inner": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "内网导航(失效)",
-      "icon": {
-        "type": "fa",
-        "content": "shield",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "内网导航",
-      "url": "https://inav.mistyhill.ml",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "yl-system": {
       "addressBar": false,
       "autoRun": 0,
@@ -473,6 +440,72 @@
       },
       "title": "每日早报",
       "url": "https://news.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-daily": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel部署的热榜",
+      "icon": {
+        "type": "fa",
+        "content": "list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "每日热榜",
+      "url": "https://daily.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-transform": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel部署的transform",
+      "icon": {
+        "type": "fa",
+        "content": "list",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "transform",
+      "url": "https://transform.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -1829,39 +1862,6 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-blog": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "CloudFlare Worker 博客程序",
-      "icon": {
-        "type": "fa",
-        "content": "th-large",
-        "bg": "transparent"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "个人博客",
-      "url": "https://blog.mistyhill.ml/",
-      "customTile": "",
-      "urlRandomToken": false
-    },
     "yl-cf-blog": {
       "addressBar": false,
       "autoRun": 0,
@@ -1928,7 +1928,7 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-nav": {
+    "yl-map": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
@@ -1994,7 +1994,6 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    
     "yl-guide": {
       "addressBar": false,
       "autoRun": 0,
@@ -2523,12 +2522,78 @@
       "customTile": "",
       "urlRandomToken": false
     },
-    "yl-office": {
+    "yl-blog": {
       "addressBar": false,
       "autoRun": 0,
       "background": false,
       "badge": 0,
-      "desc": "Vercel office",
+      "desc": "Vercel和Notion 博客程序",
+      "icon": {
+        "type": "fa",
+        "content": "th-large",
+        "bg": "transparent"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "诺星博客",
+      "url": "https://notion-blog.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-nav": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel 和 Notion 导航程序",
+      "icon": {
+        "type": "fa",
+        "content": "glide",
+        "bg": "transparent"
+      },
+      "openMode": "max",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "诺星导航",
+      "url": "https://notion-nav.mistyhill.ml/",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "yl-netease": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "Vercel 搭建的 Netease",
       "icon": {
         "type": "fa",
         "content": "book",
@@ -2551,8 +2616,8 @@
         "height": "y*0.8-80",
         "width": "x*0.8"
       },
-      "title": "在线office",
-      "url": "https://office.666986.xyz/",
+      "title": "黄鹂音乐",
+      "url": "https://netease.mistyhill.ml/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -3186,12 +3251,6 @@
   },
   "shortcuts": [
     {
-      "app": "yl-inner",
-      "title": "内网导航",
-      "params": {},
-      "hash": ""
-    },
-    {
       "app": "yl-browser",
       "title": "浏览器",
       "params": {},
@@ -3374,6 +3433,12 @@
           "hash": ""
         },
         {
+          "app": "yl-nav",
+          "title": "诺星导航",
+          "params": {},
+          "hash": ""
+        },
+        {
           "app": "yl-git-blog",
           "title": "GIT-博客",
           "params": {},
@@ -3444,7 +3509,7 @@
           "hash": ""
         },
         {
-          "app": "yl-nav",
+          "app": "yl-map",
           "title": "完整导航",
           "params": {},
           "hash": ""
@@ -3569,14 +3634,26 @@
           "hash": ""
         },
         {
+          "app": "yl-daily",
+          "title": "每日热榜",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "yl-transform",
+          "title": "transform",
+          "params": {},
+          "hash": ""
+        },
+        {
           "app": "yl-pan-hero",
           "title": "图书馆",
           "params": {},
           "hash": ""
         },
         {
-          "app": "yl-office",
-          "title": "在线office",
+          "app": "yl-netease",
+          "title": "黄鹂音乐",
           "params": {},
           "hash": ""
         },
@@ -3694,7 +3771,6 @@
           "params": {},
           "hash": ""
         },
-
         {
           "app": "yl-pan-odm",
           "title": "垃圾网盘",
