@@ -608,39 +608,6 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "ylui-image-host": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "fa",
-        "content": "image",
-        "bg": "#72b076"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "imgchr.com",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "图床",
-      "url": "https://imgs.sob.im/",
-      "customTile": "",
-      "urlRandomToken": true
-    },
     "yl-mirror": {
       "addressBar": false,
       "autoRun": 0,
@@ -1627,7 +1594,7 @@
         "width": "x*0.8"
       },
       "title": "Fly图床",
-      "url": "https://img.sob.im/",
+      "url": "https://imgs.sob.im/",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -3502,12 +3469,6 @@
     {
       "title": "CF-PAGE",
       "children": [
-        {
-          "app": "ylui-image-host",
-          "title": "图床",
-          "params": {},
-          "hash": ""
-        },
         {
           "app": "yl-map",
           "title": "完整导航",
